@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom:70px;
+}
+.divide-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.top-text{
+    margin-top:150px;
+}
+h1{
+    font-size:40px;
+    color:rgb(75, 73, 73);
+    line-height: 0.4;
+}
+h1 span{
+    color: orange;
+}
+p{
+    text-align:justify;
+    color:rgb(104, 104, 104);
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding:10px 40px;
+    border-radius:20px;
+    color: white;
+    font-weight: 700;
+}
+.divide-width img{
+    margin-left:20px;
+    width: 95%;
+}
+.about-area{
+    background-image:url(images/7.png);
+    background-repeat:no-repeat;
+    background-position:0%;
+}
+.menu-text{
+    text-align:center;
+}
+.menu-text p{
+    text-align:center;
+    margin-bottom:20px;
+}
+.menu-item{
+    width: 50%;
+    margin-left: 4%;
+    margin-right:4%;
+    padding:15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.menu-item img{
+    width: 100%;
+}
+.like-area{
+    width: 93%;
+    margin-left:4%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;  
+}
+.like-item{
+    padding:1.5% 0 1.5% 5%;
+    margin-left:8%;
+}
+.like-item h1{
+    color: black;
+    line-height:0.1;
+}
+.like-item p{
+    line-height: 0.2;
+}
+footer{
+    background-color:black;
+    padding:5%;
+    
+}
+footer h1, p{
+    text-align:center;
+}
